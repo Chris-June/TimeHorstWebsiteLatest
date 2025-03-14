@@ -1,0 +1,9 @@
+Primary Colour = Blue;
+Secondary Colour = white;
+Accent Colour = Red;
+
+## All <H> tags should have a gradient colour fill using the 3 colours;
+## Background colours should have a complimentary colour gradient on every page;
+## All modals should have an accent colour border;
+
+## All buttons to have Secondary and Accent colour that changes on hover and on click events;
