@@ -60,7 +60,7 @@ export function Header() {
             to="/" 
             className="text-2xl font-bold text-gradient-animated hover:scale-105 transition-transform"
           >
-            Horst Home 
+            Horst Home Improvements 
           </Link>
         </div>
         <div className="hidden lg:flex items-center gap-8">

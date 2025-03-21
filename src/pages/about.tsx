@@ -68,7 +68,7 @@ export function About() {
             Crafting Homes, Building Dreams
           </h1>
           <p className="mt-6 text-lg sm:text-xl leading-8 text-white/90 max-w-2xl mx-auto">
-            With over three decades of dedicated service, Tim Horst has been transforming houses into homes. Our journey is defined by passion, precision, and a profound commitment to excellence in every project we undertake.
+            With over three decades of dedicated service, Horst Home Improvements has been transforming houses into homes. Our journey is defined by passion, precision, and a profound commitment to excellence in every project we undertake.
           </p>
           <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
             <Button asChild size="lg" className="text-lg px-8 py-6 hover-lift">

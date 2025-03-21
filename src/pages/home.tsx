@@ -51,7 +51,7 @@ const features = [
 
 const testimonials = [
   {
-    content: "We've known Tim Horst from Horst Home Improvements for years—his craftsmanship has stood the test of time, starting with my parents' windows and doors over 35 years ago. From windows, doors, and siding to meticulous aluminum work, his attention to detail is unmatched. His latest project for us, a beautifully crafted covered deck, was no exception. Tim shows up on time, delivers flawless work, and leaves the site spotless—highly recommended!",
+    content: "We've known Tim from Horst Home Improvements for years—his craftsmanship has stood the test of time, starting with my parents' windows and doors over 35 years ago. From windows, doors, and siding to meticulous aluminum work, his attention to detail is unmatched. His latest project for us, a beautifully crafted covered deck, was no exception. Tim shows up on time, delivers flawless work, and leaves the site spotless—highly recommended!",
     author: "Jim B.",
     rating: 5
   },
@@ -101,7 +101,7 @@ function Home() {
             className="text-center mx-auto max-w-3xl"
           >
             <h1 className="text-4xl font-bold tracking-tight text-gradient-animated sm:text-6xl lg:text-7xl mb-6">
-              Quality Home Renovations
+              Horst Home Improvements
             </h1>
             <p className="mt-4 sm:mt-6 text-lg sm:text-xl leading-8 text-white/90 max-w-2xl mx-auto">
               With over 30 years of experience, Tim Horst delivers exceptional

@@ -138,7 +138,7 @@ export function Services() {
             className="text-center max-w-3xl mx-auto"
           >
           <h1 className="text-4xl font-bold tracking-tight text-gradient-animated sm:text-6xl lg:text-7xl mb-6">
-            Horst Home Renovation Services
+            Horst Home Improvement Services
           </h1>
           <p className="mt-6 text-lg sm:text-xl leading-8 text-white/90 max-w-2xl mx-auto">
           30+ years of trusted craftsmanship, serving your home renovation needs

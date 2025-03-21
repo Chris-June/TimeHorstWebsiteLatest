@@ -96,7 +96,7 @@ export function Footer() {
             {/* Company Info */}
             <motion.div variants={itemVariants}>
               <Link to="/" className="text-2xl font-bold text-gradient-animated">
-               Horst Homes
+               Horst Home Improvements
               </Link>
               <p className="mt-4 text-base text-gray-600 dark:text-gray-300 leading-relaxed">
                 30+ years of experience in home renovations.
@@ -188,7 +188,7 @@ export function Footer() {
             className="mt-10 border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between"
           >
             <div className="text-sm text-gray-600 dark:text-gray-300">
-              <p>&copy; {new Date().getFullYear()} Horst Homes. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Horst Home Improvements. All rights reserved.</p>
               <p className="mt-1">
                 Powered by{' '}
                 <a
