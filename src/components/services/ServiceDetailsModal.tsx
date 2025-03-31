@@ -13,7 +13,7 @@ interface ServiceDetailsModalProps {
     image: string;
     importance?: {
       toClients: string;
-      toTim: string;
+      toHorstHomes: string;
       personalMessage: string;
     };
   };
@@ -60,27 +60,27 @@ const iconVariants = {
 const serviceImportance = {
   'Window Installation & Replacement': {
     toClients: "Energy-efficient windows not only enhance your home's comfort but also lead to significant savings on energy bills. Our professional installation ensures perfect fit and optimal performance.",
-    toTim: "Window installation has been at the core of my business for over three decades. Each installation is a chance to improve a home's comfort and efficiency.",
+    toHorstHomes: "Window installation has been at the core of our business for over three decades. Each installation is a chance to improve a home's comfort and efficiency.",
     personalMessage: "I take immense pride in every window installation. The right windows, properly installed, can transform both the look and feel of your home. I personally oversee each project to ensure it meets our high standards of quality and craftsmanship."
   },
   'Door Installation': {
     toClients: "Your home's doors are crucial for security, energy efficiency, and curb appeal. Professional installation ensures proper operation and lasting performance.",
-    toTim: "Door installation requires precision and attention to detail. It's about more than just functionality – it's about creating a welcoming entrance to your home.",
+    toHorstHomes: "Door installation requires precision and attention to detail. It's about more than just functionality – it's about creating a welcoming entrance to your home.",
     personalMessage: "Every door installation is an opportunity to enhance both the security and beauty of your home. I ensure each door is perfectly fitted and operates smoothly, giving you peace of mind for years to come."
   },
   'Custom Interior Renovations': {
     toClients: "Interior renovations can dramatically improve your living space and increase your home's value. Our expertise ensures your vision becomes reality with minimal disruption.",
-    toTim: "Interior renovations allow me to showcase the full range of my craftsmanship skills. Each project is unique and requires careful planning and execution.",
+    toHorstHomes: "Interior renovations allow us to showcase the full range of our craftsmanship skills. Each project is unique and requires careful planning and execution.",
     personalMessage: "I love helping homeowners transform their living spaces. Whether it's a small update or a complete renovation, I treat each project with the same level of dedication and attention to detail."
   },
   'Exterior Upgrades': {
     toClients: "Your home's exterior is its first line of defense against the elements. Quality materials and expert installation protect your investment while enhancing curb appeal.",
-    toTim: "Exterior work demands a thorough understanding of building science and weather protection. It's about creating a beautiful and durable shield for your home.",
+    toHorstHomes: "Exterior work demands a thorough understanding of building science and weather protection. It's about creating a beautiful and durable shield for your home.",
     personalMessage: "I understand that your home's exterior is both its protection and its presentation to the world. My team and I work diligently to ensure every exterior project enhances both aspects."
   },
   'Home Maintenaince and Repairs': {
     toClients: "Regular maintenance and prompt repairs protect your investment and prevent small issues from becoming major problems. Our experienced team ensures everything is done right.",
-    toTim: "Maintenance and repairs require a broad knowledge base and problem-solving skills. It's satisfying to help homeowners maintain their properties in top condition.",
+    toHorstHomes: "Maintenance and repairs require a broad knowledge base and problem-solving skills. It's satisfying to help homeowners maintain their properties in top condition.",
     personalMessage: "I believe in addressing issues promptly and thoroughly. Whether it's routine maintenance or unexpected repairs, you can count on us to keep your home in excellent condition."
   }
 };
@@ -130,14 +130,14 @@ export function ServiceDetailsModal({ isOpen, onClose, service }: ServiceDetails
                   </div>
 
                   <div>
-                    <h3 className="text-lg font-semibold text-blue-600 mb-2">Why This Matters to Tim</h3>
+                    <h3 className="text-lg font-semibold text-blue-600 mb-2">Why This Matters to Us</h3>
                     <p className="text-gray-700 leading-relaxed">
-                      {details.toTim}
+                      {details.toHorstHomes}
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-lg font-semibold text-blue-600 mb-2">A Personal Message from Tim</h3>
+                    <h3 className="text-lg font-semibold text-blue-600 mb-2">A Personal Message from Horst Homes</h3>
                     <p className="text-gray-700 leading-relaxed">
                       {details.personalMessage}
                     </p>

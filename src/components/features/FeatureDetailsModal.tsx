@@ -57,11 +57,11 @@ const iconVariants = {
 
 const featureDetails = {
   '30+ Years Experience': {
-    personalMessage: "Every project I take on carries the weight of three decades of learning, growth, and dedication. This isn't just about installing windows or renovating homes – it's about the countless families I've had the privilege to help, and the trust that's been placed in my hands year after year.",
+    personalMessage: "Every project we take on carries the weight of three decades of learning, growth, and dedication. This isn't just about installing windows or renovating homes – it's about the countless families we've had the privilege to help, and the trust that's been placed in our hands year after year.",
     clientBenefit: "When you choose someone with decades of experience, you're getting peace of mind. Every challenge has been seen before, every problem has a tried-and-true solution, and every project benefits from years of refined craftsmanship."
   },
   'Quality Craftsmanship': {
-    personalMessage: "Craftsmanship isn't just about the end result – it's about the pride and care taken in every step of the process. I treat each project as if I were working on my own home, paying attention to the smallest details because I believe that's what makes the difference between good work and exceptional work.",
+    personalMessage: "Craftsmanship isn't just about the end result – it's about the pride and care taken in every step of the process. We treat each project as if we were working on our own home, paying attention to the smallest details because we believe that's what makes the difference between good work and exceptional work.",
     clientBenefit: "Quality craftsmanship means your home improvements will stand the test of time. It means fewer repairs, better energy efficiency, and a finished product that not only functions perfectly but adds lasting value to your home."
   },
   'WSIB Certified': {
@@ -116,7 +116,7 @@ export function FeatureDetailsModal({ isOpen, onClose, feature }: FeatureDetails
               <div className="mt-6 space-y-8">
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-lg font-semibold text-blue-600 mb-2">Why This Matters to Me</h3>
+                    <h3 className="text-lg font-semibold text-blue-600 mb-2">Why This Matters to Us</h3>
                     <p className="text-gray-700 leading-relaxed">
                       {details.personalMessage}
                     </p>

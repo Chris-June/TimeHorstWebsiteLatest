@@ -96,7 +96,7 @@ export function Contact() {
         <div className="absolute inset-0 overflow-hidden bg-gray-900">
           <img
             src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
-            alt="Contact Tim Horst"
+            alt="Contact Horst Homes"
             className="absolute inset-0 h-full w-full object-cover opacity-30 transform scale-105"
             data-aos="zoom-out"
             data-aos-duration="2000"

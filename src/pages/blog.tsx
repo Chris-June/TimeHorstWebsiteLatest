@@ -113,7 +113,7 @@ export function Blog() {
               Home Renovation Tips, Tricks & Insights
             </h1>
             <p className="mt-6 text-lg sm:text-xl leading-8 text-white/90 max-w-2xl mx-auto">
-              Expert advice, project highlights, and the latest in home improvement from Tim Horst.
+              Expert advice, project highlights, and the latest in home improvement from Horst Homes.
             </p>
           </motion.div>
         </div>
@@ -126,7 +126,7 @@ export function Blog() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-blue-600">
-              Tim Horst
+              Horst Homes
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gradient-animated sm:text-4xl">
               Welcome to Contractors Corner
