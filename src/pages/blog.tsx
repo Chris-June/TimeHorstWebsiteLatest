@@ -113,7 +113,7 @@ export function Blog() {
               Home Renovation Tips, Tricks & Insights
             </h1>
             <p className="mt-6 text-lg sm:text-xl leading-8 text-white/90 max-w-2xl mx-auto">
-              Expert advice, project highlights, and the latest in home improvement from Horst Homes.
+              Expert advice, project highlights, and the latest in home improvement from Horst Home Improvements.
             </p>
           </motion.div>
         </div>

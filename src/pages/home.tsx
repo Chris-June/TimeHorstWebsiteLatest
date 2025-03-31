@@ -104,7 +104,7 @@ function Home() {
               Horst Home Improvements
             </h1>
             <p className="mt-4 sm:mt-6 text-lg sm:text-xl leading-8 text-white/90 max-w-2xl mx-auto">
-              With over 30 years of experience, Horst Homes delivers exceptional
+              With over 30 years of experience, Horst Home Improvements delivers exceptional
               craftsmanship and reliable service to homeowners in Chatham-Kent.
             </p>
             <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -161,7 +161,7 @@ function Home() {
       >
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-blue-600 text-center">
-            Why Choose Horst Homes
+            Why Choose Horst Home Improvements
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gradient-animated sm:text-4xl text-center">
             Experience the Difference
