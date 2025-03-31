@@ -1,0 +1,74 @@
+/* Import global theme variables, gradients, and animations */
+@import "./styles/globals.css";
+
+/* Additional Base Styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-foreground bg-background transition-colors duration-300;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    @apply bg-blue-500/30 text-blue-900 dark:text-blue-100;
+  }
+
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-blue-500/20 rounded-full hover:bg-blue-500/40 transition-colors;
+  }
+}
+
+/* Component Base Styles */
+@layer components {
+  #root {
+    @apply min-h-screen flex flex-col;
+  }
+
+  main {
+    @apply flex-1;
+  }
+
+  /* Typography Enhancement */
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-bold;
+  }
+
+  /* Link Styles */
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  /* Focus States */
+  :focus-visible {
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2 ring-offset-background;
+  }
+}
+
+/* Additional Utility Classes */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+}
