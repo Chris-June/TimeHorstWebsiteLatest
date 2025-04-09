@@ -1,0 +1,33 @@
+# Horst Home Improvements Website - TODO List
+
+## Completed
+- [x] Fix 404 errors when refreshing pages on Vercel deployment
+  - Added vercel.json configuration for SPA routing
+  - Updated Vite configuration to handle client-side routing
+  - Tested routing locally to confirm fix works
+- [x] Fix duplicate react-calendly dependency in package.json
+
+## In Progress
+
+## Planned
+- [ ] Optimize build size (current bundle is over 500kB)
+  - Implement code splitting with dynamic imports
+  - Configure manual chunks in Rollup options
+- [ ] Implement Express.js backend server
+  - Set up concurrent running of frontend and backend
+  - Configure proper API endpoints
+- [ ] Integrate GPT-4o-mini for financial insights
+  - Implement secure backend integration via Supabase Edge Functions
+  - Add contextual analysis of user's financial data
+  - Support multiple financial goals
+  - Implement markdown-compatible response generation
+- [ ] Enhance documentation
+  - Update README.md with project details
+  - Create modular .md files for specific features
+
+## Backlog
+- [ ] Improve build optimization
+- [ ] Add more interactive UI components
+- [ ] Implement comprehensive testing
+- [ ] Add analytics tracking
+- [ ] Enhance SEO optimization
